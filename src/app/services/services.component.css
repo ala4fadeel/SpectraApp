@@ -1,0 +1,46 @@
+
+.content{
+margin-left:2%;
+margin-right:2%;
+
+}
+
+@media(min-width: 900px){
+    .content{
+        justify-content: space-between;
+         display: flex;
+         flex-wrap: wrap;
+    }
+}
+
+.feature {
+    /* flex-grow: 1; */
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    flex-basis: 30%;
+    /* flex:1; // makes dives with same sizes*/
+  }
+  
+
+
+  h4{
+    text-align: center;
+    color: #002864;
+    margin-bottom:5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+
+
+h2 {
+    color: #f60;
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 5%;
+    text-align: center;
+}
+
+

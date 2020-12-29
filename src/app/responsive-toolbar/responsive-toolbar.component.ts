@@ -8,52 +8,41 @@ import{ MenuItem} from '../menu-item';
 export class ResponsiveToolbarComponent implements OnInit {
   menuItems: MenuItem[] = [
     {
-      label: 'Sign Up',
+      label: 'SERVICES',
       icon: 'login',
+      url:'/services',
       showOnMobile: true,
       showOnTablet: true,
       showOnDesktop: true
 
     },
     {
-      label: 'About',
+      label: 'ABOUT US',
       icon: 'help',
-      showOnMobile: false,
+      url:'/about',
+      showOnMobile: true,
       showOnTablet: true,
       showOnDesktop: true
 
     },
     {
-      label: 'Pricing',
+      label: 'CONTACT',
       icon: 'attach_money',
-      showOnMobile: false,
-      showOnTablet: false,
-      showOnDesktop: true
-
-    },
-    {
-      label: 'Docs',
-      icon: 'notes',
-      showOnMobile: false,
+      url:'/contact',
+      showOnMobile: true,
       showOnTablet: true,
       showOnDesktop: true
 
     },
     {
-      label: 'Showcase',
-      icon: 'slideshow',
-      showOnMobile: false,
-      showOnTablet: false,
+      label: 'OUR TEAM',
+      icon: 'notes',
+      url:'/team',
+      showOnMobile: true,
+      showOnTablet: true,
       showOnDesktop: true
 
-    },
-    {
-      label: 'Blog',
-      icon: 'rss_feed',
-      showOnMobile: false,
-      showOnTablet: false,
-      showOnDesktop: false
-    },
+    }
   ];
 
   constructor() { }

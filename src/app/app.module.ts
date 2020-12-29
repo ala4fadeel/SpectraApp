@@ -11,11 +11,23 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { ResponsiveToolbarComponent } from './responsive-toolbar/responsive-toolbar.component';
+import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
+import { ServicesComponent } from './services/services.component';
+import { TeamComponent } from './team/team.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ResponsiveToolbarComponent
+    ResponsiveToolbarComponent,
+    HomeComponent,
+    ContactComponent,
+    AboutComponent,
+    ServicesComponent,
+    TeamComponent,
+    NotfoundComponent
   ],
   imports: [
     BrowserModule,
