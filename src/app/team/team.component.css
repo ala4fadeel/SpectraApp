@@ -1,6 +1,8 @@
 .team-container{
-    width: 100%;
+    width: 90%;
     text-align: center;
+    margin-left:2%;
+    margin-right:2%;
 }
 
 
@@ -12,17 +14,14 @@ h2 {
 }
 
 
-p{
- margin-left: 20%;
- margin-right: 20%;
-}
+
 
 ul{
 list-style: none;
 text-align: left;
-width: 40%;
+/* width: 90%; */
 position:relative;
-left: 30%;
+/* left: 30%; */
 
 }
 
