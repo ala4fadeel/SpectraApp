@@ -15,7 +15,7 @@
     "e2e": "ng e2e",
     "watch": "npm-watch",
     "preinstall": "npm install -g @angular/cli",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --prod"
   },
   "private": true,
   "dependencies": {
